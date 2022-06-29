@@ -119,6 +119,8 @@ color: var(--secondary-text-color);
 
 /* ------------------MAIN------------ */
 .main {
+padding-bottom: 200px;
+padding-top: 200px;
 background-color: var(--main-background-color);
 }
 
@@ -161,7 +163,9 @@ background-color: #188CE8;
 
 /* ---------------FEATURES----------- */
 .features-section {
-    background-color: var(--primary-background-color);
+padding-bottom: 94px;
+padding-top: 94px;
+background-color: var(--primary-background-color);
 }
 
 .visually-hidden {
@@ -180,8 +184,6 @@ background-color: #188CE8;
 .features-list {
 display: flex;
 flex-wrap: wrap;
-padding-top: 94px;
-padding-bottom: 47px;
 }
 
 .features-list .item {
@@ -213,6 +215,7 @@ width: 270px;
 
 /* --------WORKING------------- */
 .working-section {
+padding-top: 47px;
 padding-bottom: 94px;
 background-color: var(--primary-background-color);
 }
@@ -224,7 +227,6 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
-padding-top: 47px;
 margin-bottom: 50px;
 }
 
@@ -237,12 +239,12 @@ margin-left: 30px;
 }
 
 .team-section {
+padding-top: 94px;
 padding-bottom: 94px;
 background-color: var(--team-background-color);
 }
 
 .team-title {
-padding-top: 94px;
 margin-bottom: 50px;
 font-weight: 700;
 font-size: 36px;
@@ -274,7 +276,7 @@ text-align: center;
 }
 
 .team-name {
-margin-bottom: 10px;
+margin-bottom: 4px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -347,7 +349,7 @@ color: var(--color-accent);
 .portfolio {
 padding-top: 94px;
 padding-bottom: 94px;
-background-color: var(--primary-background-color);
+background-color: #FFFFFF;
 }
 
 .list-button {
@@ -407,6 +409,7 @@ margin-bottom: 30px;
 }
 
 .list-about {
+margin-bottom: 4px;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
